@@ -1,0 +1,28 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Arduino",
+      "includePath": [
+        "/Users/tiger0-o/Library/Arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino",
+        "/Users/tiger0-o/Library/Arduino15/packages/arduino/hardware/avr/1.8.8/variants/standard",
+        "${workspaceFolder}/**"
+      ],
+      "defines": [
+        "F_CPU=16000000L",
+        "ARDUINO=10607",
+        "ARDUINO_AVR_UNO",
+        "ARDUINO_ARCH_AVR"
+      ],
+      "compilerPath": "/Users/tiger0-o/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++11",
+      "compilerArgs": [
+        "-mmcu=atmega328p"
+      ],
+      "forcedInclude": [
+        "/Users/tiger0-o/Library/Arduino15/packages/arduino/hardware/avr/1.8.8/cores/arduino/Arduino.h"
+      ]
+    }
+  ]
+}
