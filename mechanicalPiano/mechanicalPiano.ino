@@ -66,7 +66,11 @@ void loop() {
 
     if (digitalRead(button) == LOW) {
         octave = !octave; // Toggles the octave state when the button is pressed
-        digitalWrite(ledOctave, octave ? HIGH : LOW);
+        if (octave) {
+            digitalWrite(ledOctave, HIGH);
+        } else {
+            digitalWrite(ledOctave, LOW);
+        }
 
         while (digitalRead(button) == LOW) {
         }
